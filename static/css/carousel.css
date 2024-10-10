@@ -1,0 +1,9 @@
+/* 캐러셀 이미지 크기 조정 */
+.carousel-inner img {
+    height: 600px; /* 높이를 원하는 크기로 설정 */
+    object-fit: cover; /* 이미지 비율을 유지하면서 크기 조정 */
+}
+#carouselExampleIndicators {
+    margin-left: 50px; /* 왼쪽 여백 */
+    margin-right: 50px; /* 오른쪽 여백 */
+}

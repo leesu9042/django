@@ -8,4 +8,10 @@ def index(request):
     return render(request,'product/content_list.html',context)
 
 
+def detail(request, content_id):
+    content_list = MainContent.objects.get(id=content_id)
+    context = { 'content_list': content_list}
+    return render(request, 'product/content_detail.html', context)
+
+
 # Create your views here.
